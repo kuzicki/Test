@@ -20,14 +20,7 @@ class Person:
 
 
 p = Person("Nick", 17)
-<<<<<<< HEAD
 p.addFriends("Kate Young")
-p.addFriends("Justing")
+p.addFriends("Justin")
 p.Greeting()
 p.sayFriends()
-=======
-
-p.Greeting()
-p.Bday()
-print("My age now is: " + str(p.age))
->>>>>>> new_feature
