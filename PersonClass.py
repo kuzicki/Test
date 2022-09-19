@@ -5,8 +5,13 @@ class Person:
     
     def Greeting(self):
         print("Hello, my name is " + self.name)
+    
+    def Bday(self):
+        self.age += 1
 
 
 p = Person("Nick", 17)
 
 p.Greeting()
+p.Bday()
+print("My age now is: " + str(p.age))
