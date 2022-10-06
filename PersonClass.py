@@ -24,3 +24,11 @@ p.addFriends("Kate Young")
 p.addFriends("Justin")
 p.Greeting()
 p.sayFriends()
+
+
+
+
+
+
+
+#There are messages
