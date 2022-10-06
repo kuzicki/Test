@@ -16,6 +16,7 @@ p.Greeting()
 p.sayFriends()
 p.Bday()
 print("My age now is: " + str(p.age))
+#I forgor
 
 
 #There are messages
