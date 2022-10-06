@@ -1,6 +1,4 @@
 class Person:
-    friends = []
-
     def __init__(self, name, age):
         self.name = name
         self.age = age
@@ -11,18 +9,11 @@ class Person:
     def Bday(self):
         self.age += 1
 
-    def addFriends(self, friend_name):
-        self.friends.append(friend_name)
-
-    def sayFriends(self):
-        print(self.friends)
-
-
 
 p = Person("Nick", 17)
-p.addFriends("Kate Young")
-p.addFriends("Justin")
+
 p.Greeting()
+<<<<<<< HEAD
 p.sayFriends()
 
 
@@ -33,3 +24,8 @@ p.sayFriends()
 
 #There are messages
 #That's it
+=======
+p.Bday()
+print("My age now is: " + str(p.age))
+#Super important message
+>>>>>>> 8c45553 (Message)
