@@ -13,19 +13,11 @@ class Person:
 p = Person("Nick", 17)
 
 p.Greeting()
-<<<<<<< HEAD
 p.sayFriends()
-
-
-
-
-
+p.Bday()
+print("My age now is: " + str(p.age))
 
 
 #There are messages
 #That's it
-=======
-p.Bday()
-print("My age now is: " + str(p.age))
 #Super important message
->>>>>>> 8c45553 (Message)
