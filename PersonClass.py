@@ -5,6 +5,7 @@ class Person:
     
     def Greeting(self):
         print("Hello, my name is " + self.name)
+        hello
     
     def Bday(self):
         self.age += 1
