@@ -16,6 +16,8 @@ class Person:
 
     def sayFriends(self):
         print(self.friends)
+    def sayAge(self):
+        print(self.age)
 
 
 
@@ -24,8 +26,9 @@ p.addFriends("Kate Young")
 p.addFriends("Justin")
 p.Greeting()
 p.sayFriends()
-
-
+p.sayAge()
+p.Bday()
+p.sayAge()
 
 
 
